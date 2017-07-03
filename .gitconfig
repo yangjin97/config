@@ -1,0 +1,9 @@
+[user]
+	name = mmasley\n
+	email = yangjin@andrew.cmu.edu
+[core]
+	editor = vim
+[github]
+	user = yangjin97
+[credential]
+	helper = osxkeychain
