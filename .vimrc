@@ -35,14 +35,15 @@ filetype indent on
 filetype plugin on
 " Indent as intelligently as vim knows how
 set smartindent
+set hlsearch
 
 " Show multicharacter commands as they are being typed
 set showcmd
 set tabstop=2
-set expandtab
 set shiftwidth=2
 set softtabstop=2
-set clipboard=unnamed
+set expandtab
+"set clipboard=unnamed
 
 let mapleader = ","
 let NERDTreeMapOpenInTab='<ENTER>'
@@ -60,8 +61,8 @@ map <Leader>e <Plug>(easymotion-k)
 
 let g:tmux_navigator_no_mappings = 1
 
-nnoremap <silent> {Left-Mapping} :TmuxNavigateLeft<cr>
-nnoremap <silent> {Down-Mapping} :TmuxNavigateDown<cr>
-nnoremap <silent> {Up-Mapping} :TmuxNavigateUp<cr>
-nnoremap <silent> {Right-Mapping} :TmuxNavigateRight<cr>
-nnoremap <silent> {Previous-Mapping} :TmuxNavigatePrevious<cr>
+nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
+nnoremap <silent> <C-p> :TmuxNavigatePrevious<cr>
