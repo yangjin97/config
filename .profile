@@ -84,5 +84,5 @@ fi
 printf "End .profile\n"
 
 # Invoke zsh
-export SHELL=/bin/zsh
-[ -z "$ZSH_VERSION" ] && exec /bin/zsh -l
+# export SHELL=/bin/zsh
+# [ -z "$ZSH_VERSION" ] && exec /bin/zsh -l
